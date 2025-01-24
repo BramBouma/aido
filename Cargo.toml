@@ -1,0 +1,22 @@
+[package]
+name = "aido"
+version = "0.1.0"
+edition = "2021"
+description = "'prompt to bash one-liner' ai cli tool for your terminal"
+authors = ["Stocko <stocko-2073@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/Stocko-2073/aido"
+keywords = ["rust", "ai", "bash", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+readme = "README.md"
+
+[dependencies]
+genai = "=0.1.18"
+tokio = { version = "1.43.0", features = ["full", "macros"] }
+syntect = "5.2.0"
+syntect-tui = "3.0"
+ratatui = "0.29.0"
+terminal_size = "0.4.1"
+
+[profile.release]
+opt-level = 3
