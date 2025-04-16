@@ -7,4 +7,4 @@
         - cross platform config using 'dirs' (XDG/AppData)
 
 # aido
-"prompt to command one-liner" ai cli tool for the terminal terminal
+"prompt to command one-liner" ai cli tool for the terminal
