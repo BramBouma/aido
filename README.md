@@ -1,6 +1,10 @@
 # from me
-this is a personal clone of stocko's aido project for personal purposes
-all rights and credit go to stocko-2073 i think idrk how licenses work
+- fork of stocko's aido project
+    - refactored as a clap-based CLI for better usage
+    - added some functionality 
+        - "--dry-run" option for testing purposes
+        - multiple shell options (powershell and bash) rather than just bash
+        - cross platform config using 'dirs' (XDG/AppData)
 
 # aido
-"prompt to bash one-liner" ai cli tool for my terminal
+"prompt to command one-liner" ai cli tool for the terminal terminal
