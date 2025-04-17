@@ -8,3 +8,8 @@
 
 # aido
 "prompt to command one-liner" ai cli tool for the terminal
+
+**Example:**
+```bash
+aido add all unstaged changes and commit with message 'demo'
+```
